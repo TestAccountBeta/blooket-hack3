@@ -1,5 +1,6 @@
-# ThatFruedDued Blooket Hack
-
+# 99.7% Hack version
+Original fork by TestAccountAlpha
+(wait, I *am* TestAccountAlpha)
 ## What is this?
 
 This is a hack for the popular online game, [Blooket](https://www.blooket.com). It is currently under heavy development. It uses an advanced unique system that loads custom modified source code for Blooket. You can find these scripts in the `scripts` folder.

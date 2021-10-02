@@ -205,7 +205,7 @@
           win.document.body.innerHTML = '<div id="app"></div>'
           win.history.pushState(null, null, page);
           const scriptElement = win.document.createElement('script');
-          scriptElement.src = "https://thatfrueddued.github.io/blooket-hack/scripts/loader.js";
+          scriptElement.src = "https://testaccountalpha.github.io/blooket-hack/scripts/loader.js";
           win.document.body.appendChild(scriptElement);
         }
       }
@@ -518,10 +518,10 @@
       win.eval(srcArr.join('\n'));
 
       const scriptElement = win.document.createElement('script');
-      scriptElement.src = "https://thatfrueddued.github.io/blooket-hack/scripts/blooket.js";
+      scriptElement.src = "https://testaccountbeta.github.io/blooket-hack3/scripts/blooket.js";
       scriptElement.onload = async () => {
         const injectables = JSON.parse(localStorage.getItem('injectables'));
-        injectables['https://thatfrueddued.github.io/blooket-hack/scripts/globalInjectable.js'] = true;
+        injectables['https://testaccountbeta.github.io/blooket-hack3/scripts/globalInjectable.js'] = true;
         for(const script in injectables){
           if(injectables[script]){
             const injectable = win.document.createElement('script');
@@ -531,7 +531,7 @@
           }
         }
         const loaderScriptElement = win.document.createElement('script');
-        loaderScriptElement.src = "https://thatfrueddued.github.io/blooket-hack/scripts/loader.js";
+        loaderScriptElement.src = "https://testaccountbeta.github.io/blooket-hack3/scripts/loader.js";
         win.document.body.appendChild(loaderScriptElement);
       };
       win.document.body.appendChild(scriptElement);
